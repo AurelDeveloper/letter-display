@@ -26,8 +26,8 @@ html_content = """
     </tr>
     <tr>
       <td align="center" style="padding: 20px;">
-        <h1 style="font-size: 24px; color: #333333;">Hier ist der Titel</h1>
-        <p style="font-size: 16px; color: #666666;">Hier ist der Text des Newsletters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h1 style="font-size: 24px; color: #333333;">werbung</h1>
+        <p style="font-size: 16px; color: #666666;">werbung. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </td>
     </tr>
   </table>

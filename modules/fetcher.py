@@ -1,10 +1,7 @@
 import imaplib
 import email
 
-email_content = None
-
 def fetch_email():
-    global email_content
     mail = imaplib.IMAP4_SSL("imap.gmail.com")
     mail.login("marlon.profils@gmail.com", "auqh nuwf tecs ojqv")
 
@@ -28,3 +25,8 @@ def fetch_email():
     print(email_message)
 
     email_content = email_message.get_payload()
+    return email_content
+
+if __name__ == "__main__":
+    email_content = fetch_email()
+    print(email_content)

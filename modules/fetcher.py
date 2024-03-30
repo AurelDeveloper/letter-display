@@ -17,7 +17,7 @@ def email_checker(email_content):
 
     return False
 
-def fetch_latest_email():
+def fetch_email():
     mail = imaplib.IMAP4_SSL(os.environ['IMAP_SERVER'])
     mail.login(os.environ['EMAIL_USER'], os.environ['EMAIL_PASS'])
 

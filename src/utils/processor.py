@@ -1,11 +1,10 @@
 import json
 from bs4 import BeautifulSoup
 import datetime
-from models import Article
-from fetcher import fetch_email
+from models.article import Article
+from fetcher import fetch
 
-def process_html(email_content):
-    global processed_data
+def extract(email_content):
     soup = BeautifulSoup(email_content, 'html.parser')
 
     title = soup.find('h1').text if soup.find('h1') else None
@@ -14,11 +13,12 @@ def process_html(email_content):
     content = str(soup)
     snippet = soup.find('p').text[:40] if soup.find('p') else None
 
-    processed_data = Article(title, image, date, content, snippet).__dict__
+    article = Article(title, image, date, content, snippet)
 
     with open('../articles.json', 'w') as json_file:
-        json.dump(processed_data, json_file)
+        json.dump(article.__dict__, json_file)
 
 if __name__ == "__main__":
-    email_content = fetch_email()
-    process_html(email_content)
+    email_content = fetch()
+    if email_content:
+        extract(email_content)

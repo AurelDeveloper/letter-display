@@ -1,57 +1,36 @@
-# LetterDisplay
-
-This project is a Python-based newsletter emails fetching, processing, and storage system. It fetches emails from a Gmail account, processes the HTML content of the emails, and stores the processed data in a JSON file. The data is then uploaded to a Supabase database.
-
-## Explication
-
-It's a backend script for a website template that automatically displays the newsletter articles on a Next.js frontend website. (The frontend is not included in this repository and is not yet developed)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-- Python 3.9 or higher
-- pip (Python package installer)
-- A Gmail account for fetching emails
-- A Supabase account for storing processed data
-
-### Installing
-
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Install the required Python packages using pip:
+First, run the development server:
 
 ```bash
-pip install -r requirements.txt
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Configuration
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Rename the `modules` directory to your preferred name.
-2. Update the `.env.local` file with your Supabase URL and API key.
-3. Update the `fetcher.py` file with the Gmail account credentials from which you want to fetch emails.
-4. Update the `test.py` file with the Gmail account credentials for sending test newsletters.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Running the Scripts
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-1. Run the `main.sh` script to fetch, process, and store email data:
+## Learn More
 
-```bash
-./main.sh
-```
+To learn more about Next.js, take a look at the following resources:
 
-2. Run the `test.py` script to send a test newsletter:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```python
-python3 test.py
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Built With
+## Deploy on Vercel
 
-- Python
-- BeautifulSoup
-- imaplib
-- smtplib
-- Supabase
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

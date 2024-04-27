@@ -1,9 +1,9 @@
 import { fetch } from '../../utils/fetcher';
 import { globalState, extract } from '../../utils/processor';
 import { uploader } from '../../utils/uploader';
-import cron from 'node-cron';
 
 async function controller() {
+
     const emailContent = await fetch();
 
     if (emailContent) {
@@ -15,8 +15,7 @@ async function controller() {
             globalState.postGlobal = null;
         }
     }
-}
 
-cron.schedule('*/10 * * * *', controller);
+}
 
 export { controller };

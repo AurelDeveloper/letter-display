@@ -1,7 +1,7 @@
 import * as Imap from 'imap-simple';
 import * as mailparser from 'mailparser-simple';
 
-const NON_NEWSLETTER_KEYWORDS = ['werbung', 'danke', 'preis erhöhung'];
+const NON_NEWSLETTER_KEYWORDS = process.env.NON_NEWSLETTER_KEYWORDS?.split(',') || [];
 
 export let emailContentGlobal = '';
 
@@ -27,7 +27,6 @@ async function fetch() {
     const messages = await connection.search(searchCriteria, fetchOptions);
 
     if (messages.length === 0) {
-        console.log("Keine ungeöffneten E-Mails vom Newsletter-Versender gefunden. Der Code wird abgebrochen.");
         return null;
     }
 

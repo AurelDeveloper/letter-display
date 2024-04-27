@@ -17,9 +17,9 @@ async function uploader(post: Post) {
         ])
 
     if (error) {
-        console.error('Fehler beim Speichern des Posts:', error)
+        console.error('Error saving post:', error)
     } else {
-        console.log('Post erfolgreich in der Datenbank gespeichert')
+        console.log('Post successfully saved in the database')
     }
 }
 

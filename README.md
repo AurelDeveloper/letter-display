@@ -24,7 +24,7 @@ The `uploader.ts` code attempts to store the extracted data in a Supabase databa
 
 The frontend application, implemented in Next.js, dynamically displays all articles stored in the Supabase database using dynamic routes to generate post pages.
 
-![Screenshot 2024-04-30 at 15 09 58](https://github.com/AurelDeveloper/letter-display/assets/150530607/8f29e871-d67e-4c10-aac2-246db80efad1)
+![Screenshot 2024-04-30 at 15 12 55](https://github.com/AurelDeveloper/letter-display/assets/150530607/dd287e59-8560-4cdd-b511-01b9bad0e53c)
 
 ### Dynamic Routes
 

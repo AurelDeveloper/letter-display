@@ -2,7 +2,9 @@
 
 This repository contains a project designed to automatically fetch newsletter emails and display their content on a website. The project uses Next.js, TypeScript, Supabase, and Tailwind CSS, with design inspiration drawn from Medium.
 
-## Frontend (Website)
+**Note**: The newslatter fetcher is in `letter-display-database` repository.
+
+## Frontend
 
 The frontend application, implemented in Next.js, dynamically displays all articles stored in the Supabase database using dynamic routes to generate post pages.
 
@@ -29,7 +31,7 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 2. Install dependencies:
 
    ```bash
-   cd repository
+   cd letter-display
    npm install
    ```
 
@@ -40,8 +42,4 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
    ```plaintext
    SUPABASE_URL=your_supabase_url
    SUPABASE_KEY=your_supabase_key
-   SENDER_EMAIL=your_newsletter_sender_email
-   NON_NEWSLETTER_KEYWORDS=keyword1,keyword2,keyword3
    ```
-   
-2. Configure the Vercel cron job to execute `fetch.ts` daily.

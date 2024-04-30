@@ -37,7 +37,7 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 
 ## Configuration
 
-1. Set environment variables in a `.env.example` file:
+Set environment variables in a `.env.example` file:
 
    ```plaintext
    SUPABASE_URL=your_supabase_url

@@ -16,6 +16,8 @@ The `processor.ts` code extracts the main title, main image, and a short snippet
 
 The `uploader.ts` code attempts to store the extracted data in a Supabase database.
 
+![Screenshot 2024-04-30 at 15 10 46](https://github.com/AurelDeveloper/letter-display/assets/150530607/037cb2f1-7a78-44b2-a44b-094e1f6c06ab)
+
 **Note**: The backend functionality is not yet fully operational and may require further development and testing.
 
 ## Frontend (Website)

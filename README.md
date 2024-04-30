@@ -2,24 +2,6 @@
 
 This repository contains a project designed to automatically fetch newsletter emails and display their content on a website. The project uses Next.js, TypeScript, Supabase, and Tailwind CSS, with design inspiration drawn from Medium.
 
-## Backend (Cron Job)
-
-### Fetching and Processing
-
-A TypeScript script (`fetch.ts`) runs daily as a cron job on Vercel (in the free version). This script automatically retrieves new emails from a specified sender and filters out advertising content by checking if the subject contains any of the filter words (defined in the `NON_NEWSLETTER_KEYWORDS` environment variable in `.env` file). If the email passes the filter, its content is extracted and passed to `processor.ts`.
-
-### Processing (processor.ts)
-
-The `processor.ts` code extracts the main title, main image, and a short snippet from the article text of the emails.
-
-### Uploading to Database (uploader.ts)
-
-The `uploader.ts` code attempts to store the extracted data in a Supabase database.
-
-![Screenshot 2024-04-30 at 15 10 46](https://github.com/AurelDeveloper/letter-display/assets/150530607/037cb2f1-7a78-44b2-a44b-094e1f6c06ab)
-
-**Note**: The backend functionality is not yet fully operational and may require further development and testing.
-
 ## Frontend (Website)
 
 The frontend application, implemented in Next.js, dynamically displays all articles stored in the Supabase database using dynamic routes to generate post pages.

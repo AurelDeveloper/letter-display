@@ -33,7 +33,7 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/AurelDeveloper/letter-display
    ```
 
 2. Install dependencies:
@@ -45,7 +45,7 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 
 ## Configuration
 
-1. Set environment variables in a `.env.local` file:
+1. Set environment variables in a `.env.example` file:
 
    ```plaintext
    SUPABASE_URL=your_supabase_url

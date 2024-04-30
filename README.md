@@ -53,39 +53,5 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
    SENDER_EMAIL=your_newsletter_sender_email
    NON_NEWSLETTER_KEYWORDS=keyword1,keyword2,keyword3
    ```
-
-   Replace `your_supabase_url`, `your_supabase_key`, and `your_newsletter_sender_email` with your Supabase project URL, Supabase API key, and the email address of your newsletter sender. Add keywords to `NON_NEWSLETTER_KEYWORDS` to filter out non-newsletter emails.
-
+   
 2. Configure the Vercel cron job to execute `fetch.ts` daily.
-
-## Usage
-
-### Backend (Cron Job)
-
-Run the cron job manually or let it execute automatically on Vercel:
-
-```bash
-npm run fetch
-```
-
-### Frontend (Website)
-
-Start the Next.js development server:
-
-```bash
-npm run dev
-```
-
-Then open your browser and go to `http://localhost:3000` to view the website.
-
-## Contribution
-
-If you'd like to contribute to the project, please create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README with additional details based on your project's specific requirements and current development status.

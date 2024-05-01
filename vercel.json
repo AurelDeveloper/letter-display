@@ -1,8 +1,0 @@
-{
-  "crons": [
-    {
-      "path": "/app/api/controller.ts",
-      "schedule": "0 0 * * *"
-    }
-  ]
-}

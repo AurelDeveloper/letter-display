@@ -1,10 +1,17 @@
 import RootLayout from './layout'
-import Posts from '@/app/posts/page'
+import WideCards from '../components/cards/WideCards'
+import LargeCards from '../components/cards/LargeCards'
+import RankedCards from '../components/cards/RankedCards'
+import MidCards from '../components/cards/MidCards'
+import { Theme } from '@radix-ui/themes';
 
 export default function Page() {
     return (
         <RootLayout>
-                <Posts/>
+            <Theme>
+
+                <WideCards />
+            </Theme>
         </RootLayout>
     )
 }

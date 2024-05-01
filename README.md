@@ -1,4 +1,4 @@
-# LetterDisplay
+# letter-display
 
 This repository contains a project designed to automatically fetch newsletter emails and display their content on a website. The project uses Next.js, TypeScript, Supabase, and Tailwind CSS, with design inspiration drawn from Medium.
 

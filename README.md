@@ -4,8 +4,6 @@ This repository contains a project designed to automatically fetch newsletter em
 
 **Note**: The newslatter fetcher is in `letter-display-database` repository.
 
-**Note**: The push failed, so the code hasn't been updated. I can only push the code by this evening.
-
 ## Frontend
 
 The frontend application, implemented in Next.js, dynamically displays all articles stored in the Supabase database using dynamic routes to generate post pages.

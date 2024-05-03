@@ -8,7 +8,7 @@ This repository contains a project designed to automatically fetch newsletter em
 
 The frontend application, implemented in Next.js, dynamically displays all articles stored in the Supabase database using dynamic routes to generate post pages.
 
-![Screenshot 2024-05-03 at 13 52 49](https://github.com/AurelDeveloper/letter-display/assets/150530607/aea9ca3f-290c-4311-963b-f10aa49fa5c2)
+![Screenshot 2024-05-03 at 16 40 33](https://github.com/AurelDeveloper/letter-display/assets/150530607/bb7b7ca4-4e7d-4c76-8498-1135ded4f935)
 
 ### Dynamic Routes
 

@@ -15,7 +15,7 @@ The frontend application, implemented in Next.js, dynamically displays all artic
 
 The frontend utilizes dynamic routes to generate individual post pages based on the content stored in the Supabase database.
 
-![Screenshot 2024-05-03 at 16 42 27](https://github.com/AurelDeveloper/letter-display/assets/150530607/0e40af1d-cf36-4b80-b667-2e6954145ff5)
+![Screenshot 2024-05-03 at 17 12 54](https://github.com/AurelDeveloper/letter-display/assets/150530607/6bfbe214-1f4c-4747-886d-e85eee04dfa0)
 
 ![Screenshot 2024-04-30 at 15 25 38](https://github.com/AurelDeveloper/letter-display/assets/150530607/88abddc7-618a-4966-89c7-bc788f29827a)
 

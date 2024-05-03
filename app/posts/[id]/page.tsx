@@ -2,6 +2,7 @@
 
 import { useParams } from 'next/navigation'
 import supabase from '../../../utils/supabase'
+import './articles.css'
 
 export default async function Post() {
     const { id } = useParams()
@@ -14,7 +15,12 @@ export default async function Post() {
     if (error) return <div>Failed to load post.</div>
     if (!post) return <div>Loading...</div>
 
+    function createMarkup(html: string) {
+        return { __html: html }
+    }
+
     return (
-        <div style={{ maxWidth: '800px', margin: '0 auto' }} dangerouslySetInnerHTML={{ __html: post.content }} />
+        <div className="pl-5 pr-5 max-w-screen-lg mx-auto mt-5 custom-prose article-style"
+             dangerouslySetInnerHTML={createMarkup(post.content)}/>
     )
 }

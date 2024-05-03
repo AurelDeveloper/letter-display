@@ -17,7 +17,7 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 
 ![Screenshot 2024-05-03 at 17 12 54](https://github.com/AurelDeveloper/letter-display/assets/150530607/6bfbe214-1f4c-4747-886d-e85eee04dfa0)
 
-![Screenshot 2024-04-30 at 15 25 38](https://github.com/AurelDeveloper/letter-display/assets/150530607/88abddc7-618a-4966-89c7-bc788f29827a)
+![Screenshot 2024-05-03 at 17 13 21](https://github.com/AurelDeveloper/letter-display/assets/150530607/923a92ae-182b-4af2-bec0-6153933f0e2f)
 
 ## Roadmap
 

@@ -21,7 +21,7 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 
 ## Roadmap
 
-- [] Improve `app/post/[id]/page.txs to display correctly the newslatter content.
+- [ ] Improve `app/post/[id]/page.txs to display correctly the newslatter content.
 - [ ] Ranked article feed.
 - [ ] Views counter for the Ranked article feed.
 - [ ] Multi newslatter fetcher.

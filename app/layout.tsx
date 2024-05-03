@@ -1,14 +1,9 @@
-import type { Metadata } from "next";
+// layout.tsx
 import { Inter } from "next/font/google";
+import { metadata } from '../metadata';
 import "./globals.css";
-import '@radix-ui/themes/styles.css';
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-    title: process.env.METADATA_TITLE || "",
-    description: process.env.METADATA_DESCRIPTION || "",
-};
 
 export default function RootLayout({
                                        children,

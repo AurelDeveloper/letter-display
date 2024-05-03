@@ -21,10 +21,11 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 
 ## Roadmap
 
-- [ ] Ranked article feed
-- [ ] Views counter for the Ranked article feed
-- [ ] Multi newslatter fetcher
-- [ ] Create a newsletter hub where everyone can create an account and choose which newsletters they want to fetch and display on their feed. This project serves as the foundation for this newsletter hub
+- [ ] Improve `app/post/[id]/page.txs to display correctly the newslatter content.
+- [ ] Ranked article feed.
+- [ ] Views counter for the Ranked article feed.
+- [ ] Multi newslatter fetcher.
+- [ ] Create a newsletter hub where everyone can create an account and choose which newsletters they want to fetch and display on their feed. This project serves as the foundation for this newsletter hub.
 
 ## Installation
 

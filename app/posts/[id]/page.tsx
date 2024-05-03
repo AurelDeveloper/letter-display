@@ -20,7 +20,7 @@ export default async function Post() {
     }
 
     return (
-        <div className="pl-5 pr-5 max-w-screen-lg mx-auto mt-5 custom-prose article-style"
+        <div className="pl-5 pr-5 max-w-screen-md mx-auto mt-5 custom-prose article-style"
              dangerouslySetInnerHTML={createMarkup(post.content)}/>
     )
 }

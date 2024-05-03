@@ -18,8 +18,6 @@ The frontend utilizes dynamic routes to generate individual post pages based on 
 
 ![Screenshot 2024-04-30 at 15 25 38](https://github.com/AurelDeveloper/letter-display/assets/150530607/88abddc7-618a-4966-89c7-bc788f29827a)
 
-**Note**: The frontend is still under development and will require further enhancements and features.
-
 ## Installation
 
 1. Clone the repository:

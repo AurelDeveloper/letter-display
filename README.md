@@ -4,7 +4,7 @@ This repository contains a project designed to automatically fetch newsletter em
 
 **Note**: The newslatter fetcher is in `letter-display-database` repository.
 
-![1](https://github.com/AurelDeveloper/letter-display/assets/150530607/3d456600-3b86-4820-8040-279109f652ff)
+![Untitled design](https://github.com/AurelDeveloper/letter-display/assets/150530607/1fd7b45a-fb33-493e-884a-df8d8ccc0298)
 
 ## Frontend
 

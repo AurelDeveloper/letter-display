@@ -4,6 +4,8 @@ This repository contains a project designed to automatically fetch newsletter em
 
 **Note**: The newslatter fetcher is in `letter-display-database` repository.
 
+![1](https://github.com/AurelDeveloper/letter-display/assets/150530607/3d456600-3b86-4820-8040-279109f652ff)
+
 ## Frontend
 
 The frontend application, implemented in Next.js, dynamically displays all articles stored in the Supabase database using dynamic routes to generate post pages.
